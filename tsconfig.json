@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"noEmit": true,
+		"target": "ES2015",
+		"downlevelIteration": true,
+		"lib": ["ES2015", "dom"],
+		"types": [
+			"cypress",
+			"node",
+			"@shelex/cypress-allure-plugin",
+			"cypress-wait-until"
+		],
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"**/*.ts",
+		"node_modules/@shelex/cypress-allure-plugin/reporter",
+		"node_modules/cypress"
+	]
+}

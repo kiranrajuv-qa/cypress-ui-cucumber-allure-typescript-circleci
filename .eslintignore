@@ -1,0 +1,8 @@
+**/*.js
+CODEOWNERS
+node_modules
+.circleci
+.husky
+.vscode
+package-lock.json
+cypress/support/stepDefinitions/hooks.ts

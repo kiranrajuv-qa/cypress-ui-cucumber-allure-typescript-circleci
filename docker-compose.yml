@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    # this container will run Cypress tests on Electron Browser
+    e2e-electron:
+        image: 'cy-docker'
+        environment:
+            - CYPRESS_BASE_URL=https://pxcloud-dev.cisco.com
+        command: '-- --spec "cypress/e2e/**/*.features"'
+        volumes:
+            - ./results:/cypress-docker/results
+
+    # this container will run Cypress tests on Chrome Browser
+    e2e-chrome:
+        image: 'cy-docker'
+        environment:
+            - CYPRESS_BASE_URL=https://pxcloud-dev.cisco.com
+        command: '-- --spec "cypress/e2e/**/*.features" --browser chrome'
+        volumes:
+            - ./results:/cypress-docker/results

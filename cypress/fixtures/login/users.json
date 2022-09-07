@@ -1,0 +1,58 @@
+{
+	"exec": {
+		"username": "exec_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"csm": {
+		"username": "csm_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"css": {
+		"username": "css_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"cxpl": {
+		"username": "cxpl_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"rm": {
+		"username": "rm_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"pam": {
+		"username": "pam_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"vpam": {
+		"username": "vpam_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"pbds": {
+		"username": "pbds_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"pssm": {
+		"username": "pssm_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"non_pls": {
+		"username": "non_pls_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"pls_expired": {
+		"username": "pls_expired_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"pls_grace": {
+		"username": "pls_grace_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"pom": {
+		"username": "pom_internal_user@testpx.awsapps.com",
+		"password": "pass"
+	},
+	"day_zero": {
+		"username": "day_zero_user@testpx.awsapps.com",
+		"password": "pass"
+	}
+}
