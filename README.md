@@ -59,8 +59,5 @@ Run `npm ci` command to install all dependencies
 
 ## Further help
 
-See
-[Setting Up GitHub for Development](https://confluence-eng-sjc1.cisco.com/conf/display/CXFEE/Setting+up+GitHub+for+development#SettingupGitHubfordevelopment-7.SettingupauthorizationtoaccessnewNPMregistry).
-
 Visit the [TypeScript style guide](https://ts.dev/style) to go in-depth on our
 TS best practices.
