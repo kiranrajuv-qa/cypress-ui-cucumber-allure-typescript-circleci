@@ -4,7 +4,7 @@
 	"author": "Kiran Raju Vysyaraju <kiranrajuv@yahoo.com>",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com/kivysyar/cypress-ui-cucumber-allure-typescript-circleci.git"
+		"url": "git@github.com:kivysyar/cypress-ui-cucumber-allure-typescript-circleci.git"
 	},
 	"scripts": {
 		"prepare": "install-vscode-extensions && husky install",
