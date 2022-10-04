@@ -5,7 +5,7 @@ services:
     e2e-electron:
         image: 'cy-docker'
         environment:
-            - CYPRESS_BASE_URL=https://pxcloud-dev.cisco.com
+            - CYPRESS_BASE_URL=https://cloud-dev.test.com
         command: '-- --spec "cypress/e2e/**/*.features"'
         volumes:
             - ./results:/cypress-docker/results
@@ -14,7 +14,7 @@ services:
     e2e-chrome:
         image: 'cy-docker'
         environment:
-            - CYPRESS_BASE_URL=https://pxcloud-dev.cisco.com
+            - CYPRESS_BASE_URL=https://cloud-dev.test.com
         command: '-- --spec "cypress/e2e/**/*.features" --browser chrome'
         volumes:
             - ./results:/cypress-docker/results
