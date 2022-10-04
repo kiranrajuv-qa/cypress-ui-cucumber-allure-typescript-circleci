@@ -1,4 +1,4 @@
-# cxpp-cucumber-allure-typescript-circleci
+# cypress-ui-cucumber-allure-typescript-circleci
 
 ## Prerequisite
 
