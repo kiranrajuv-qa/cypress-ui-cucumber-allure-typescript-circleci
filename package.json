@@ -1,10 +1,10 @@
 {
-	"name": "cxpp-ui-automation",
+	"name": "cypress-ui-cucumber-allure-typescript-circleci",
 	"version": "1.0.0",
-	"author": "Kiran Raju Vysyaraju <kivysyar@cisco.com>",
+	"author": "Kiran Raju Vysyaraju <kiranrajuv@yahoo.com>",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:CXEPI/cxpp-ui-automation.git"
+		"url": "git@github.com/kivysyar/cypress-ui-cucumber-allure-typescript-circleci.git"
 	},
 	"scripts": {
 		"prepare": "install-vscode-extensions && husky install",
