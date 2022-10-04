@@ -22,11 +22,11 @@ Run `npm ci` command to install all dependencies
 -   For admin roles, set below environment variables
 	| Variable                   | Sample Value                         |
 	| -------------------------- | ------------------------------------ |
-	| CYPRESS_BASE_URL           | https://pxcloud-dev.cisco.com        |
-	| CYPRESS_PA_ST_HCAAS_USER   | pa_st_hcaas@testpx.awsapps.com       |
-	| CYPRESS_PA_ST_ONLY_USER    | pa_st_only@testpx.awsapps.com        |
-	| CYPRESS_PA_HCAAS_ONLY_USER | pa_hcaas_only@testpx.awsapps.com     |
-	| CYPRESS_PA_LCA_USER 		 | pa_lca@testpx.awsapps.com     		|
+	| CYPRESS_BASE_URL           | https://cloud-dev.test.com        |
+	| CYPRESS_PA_ST_HCAAS_USER   | pa_st_hcaas@test.awsapps.com       |
+	| CYPRESS_PA_ST_ONLY_USER    | pa_st_only@test.awsapps.com        |
+	| CYPRESS_PA_HCAAS_ONLY_USER | pa_hcaas_only@test.awsapps.com     |
+	| CYPRESS_PA_LCA_USER 		 | pa_lca@test.awsapps.com     		|
 	| CYPRESS_PORTAL_PASSWORD    | P@ssw0rd                             |
 -   Run below command to open Cypress window <br /> `npm run cy:open`
 -   Run below command to run the tests in CI mode
