@@ -1,4 +1,4 @@
-# cxpp-ui-automation
+# cxpp-cucumber-allure-typescript-circleci
 
 ## Prerequisite
 
